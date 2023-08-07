@@ -1,0 +1,41 @@
+{
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "prettier.printWidth": 180, // 超过最大值换行
+    "prettier.tabWidth": 4, // 缩进字节数
+    "prettier.bracketSpacing": true, // 在对象，数组括号与文字之间加空格 "{ foo: bar }"
+    //配置eslint
+    // 添加vue支持
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "vue"
+    ],
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    // "volar.checkVueTscVersion": false,
+    "[vue]": {
+      "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    // "vscode-edge-devtools.mirrorEdits": true,
+    // "vscode-edge-devtools.browserFlavor": "Default",
+    // "vscode-edge-devtools.defaultEntrypoint": "",
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    // "bracket-pair-colorizer-2.depreciation-notice": false,
+    "window.zoomLevel": 0,
+    "i18n-ally.localesPaths": [
+      "src/locale"
+    ],
+  }

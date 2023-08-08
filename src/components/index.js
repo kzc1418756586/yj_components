@@ -6,7 +6,8 @@
 import PageTable from "./pageTable/index.vue";
 import SearchForm from "./searchForm/index.vue";
 import DateForm from "./searchForm/date-from.vue";
-const components = [PageTable, SearchForm, DateForm];
+import RightToolbar from "./RightToolbar/index.vue";
+const components = [PageTable, SearchForm, DateForm, RightToolbar];
 
 const install = function (Vue, opts = {}) {
   components.forEach((component) => {

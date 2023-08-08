@@ -1,21 +1,27 @@
 {
-  "name": "yj_components",
-  "version": "1.0.0",
-  "private": true,
+  "name": "yj_components_box",
+  "version": "1.0.3",
+  "private": false,
+  "author": "kzc",
+  "description": "A high quality UI components Library with Vue.js",
+ 
   "scripts": {
     "serve": "vue-cli-service serve --mode develop",
     "build": "vue-cli-service build --mode develop",
-    "serve:test": "vue-cli-service serve --mode test",
-    "serve:sit": "vue-cli-service serve --mode sit",
-    "serve:uat": "vue-cli-service serve --mode uat",
-    "build:develop": "vue-cli-service build --mode develop",
-    "build:sit": "vue-cli-service build --mode sit",
-    "build:uat": "vue-cli-service build --mode uat",
-    "build:master": "vue-cli-service build --mode master",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build:lib": "vue-cli-service build --mode develop  --target lib --name yj_components --dest dist ./src/components/index.js"
   },
-  "main": "src/components/index.js",
-  "typings": "src/components/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kzc1418756586/yj_components.git"
+  },
+ 
+  "license": "MIT",
+"main": "src/components/index.js",
+"typings": "src/components/index.js",
+  "files": [
+    "src/components"
+  ],
   "dependencies": {
     "axios": "^0.26.1",
     "babel-core": "^6.26.3",

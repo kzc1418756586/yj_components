@@ -59,7 +59,3 @@ GlobalPelsTheme  配置主题色，读取主题全局变量
 GlobalPelsTheme:"red",
 
 配置入文件， build.config.js
-
-##  环境链接
-
-https://beat777.com/#/home
